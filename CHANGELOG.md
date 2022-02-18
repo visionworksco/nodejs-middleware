@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 2.0.0 (2022-02-18)
+
+
+### Features
+
+* init ([a1221c5](https://github.com/visionworksco/nodejs-middleware/commit/a1221c57b394e94681472717c2c921cae3fde88c))
+
 ## [1.6.0](https://github.com/visionworksco/expressjs-middleware/compare/v1.5.0...v1.6.0) (2022-01-21)
 
 ### Features
