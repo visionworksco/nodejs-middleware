@@ -60,6 +60,6 @@ export class BaseAmpq implements Ampq {
   }
 
   getInfo = (): string => {
-    return `${this.connectionOptions.hostname}/${this.connectionOptions.vhost}`;
+    return `${this.connectionOptions.hostname}:${this.connectionOptions.port}/${this.connectionOptions.vhost}`;
   };
 }

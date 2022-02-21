@@ -5,7 +5,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "description": "Node middleware",
+  "description": "Node.js middleware",
   "license": "MIT",
   "repository": {
     "type": "git",

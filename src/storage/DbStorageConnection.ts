@@ -1,8 +1,8 @@
 export interface DbStorageConnection {
   host: string;
-  name: string;
+  database: string;
+  port: number;
   user: string;
-  userPassword: string;
-
-  getConnectionUri(): string;
+  password: string;
+  getInfo(): string;
 }
