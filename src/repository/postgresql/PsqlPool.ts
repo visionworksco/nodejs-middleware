@@ -1,6 +1,6 @@
 import { Pool } from 'pg';
 
-// TODO: refactor
+// TODO: refactor: should be removed
 const PsqlPool = (): Pool => {
   const psqlConfig = {
     host: process.env.POSTGRES_HOST,

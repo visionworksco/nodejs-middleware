@@ -1,4 +1,4 @@
 export interface Storage {
-  connect(): Promise<void>;
+  connect(): Promise<any>;
   disconnect(): Promise<void>;
 }

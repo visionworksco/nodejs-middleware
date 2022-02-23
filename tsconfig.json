@@ -1,26 +1,44 @@
 {
   "compilerOptions": {
-    "outDir": "dist",
-    "rootDir": "src",
-    "emitDecoratorMetadata": true,
+    /* Projects */
+    "incremental": true,
+
+    /* Language and Environment */
+    "target": "esnext",
+    "lib": ["es2020"],
     "experimentalDecorators": true,
-    "declaration": true,
-    "target": "es2016",
-    "lib": ["es2016"],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
+    "emitDecoratorMetadata": true,
+
+    /* Modules */
     "module": "commonjs",
+    "rootDir": "src",
     "moduleResolution": "node",
+    "typeRoots": ["./types", "./node_modules/@types"],
     "resolveJsonModule": true,
+
+    /* JavaScript Support */
+    "allowJs": true,
+
+    /* Emit */
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "removeComments": true,
+
+    /* Interop Constraints */
     "isolatedModules": true,
-    "noFallthroughCasesInSwitch": true,
-    "typeRoots": ["./types", "./node_modules/@types"]
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type Checking */
+    "strict": true,
+
+    /* Completeness */
+    "skipLibCheck": true
   },
   "include": ["src"],
-  "exclude": ["types", "node_modules"],
+  "exclude": ["node_modules", "dist"],
   "files": ["types/global.d.ts"]
 }

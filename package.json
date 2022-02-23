@@ -17,13 +17,16 @@
     "url": "https://github.com/visionworksco/nodejs-middleware/issues"
   },
   "main": "dist/index.js",
+  "engines": {
+    "node": ">=14.18.3"
+  },
   "scripts": {
     "build": "npm run clean && npm run compile && barrelsby --config barrelsbyrc.json && tsc -p tsconfig.build.json && prettier --write ./src/index.ts",
     "clean": "rimraf dist && rimraf coverage && rimraf ./src/index.ts",
     "commit": "git add . && git commit -m 'feat: :rocket:'",
     "compile": "tsc --noEmit",
-    "format": "prettier --write .",
-    "lint": "eslint '**/*.{js,ts}' --fix",
+    "format": "prettier --write '**/*.{js,jsx,ts,tsx}'",
+    "lint": "eslint --fix '**/*.{js,jsx,ts,tsx}'",
     "lint:license": "license-checker --production --json --out licenses.json",
     "lint:node_modules": "./nm-lint.sh",
     "lint:staged": "lint-staged",
@@ -35,11 +38,11 @@
     "setup": "husky install",
     "test": "npm run test:unit",
     "test:all": "npm run test:unit && npm run test:integration",
-    "test:coverage": "jest --config jest.config.js --group=unit --coverage",
-    "test:dev": "jest --config jest.config.js --group=unit --watch",
-    "test:integration": "jest --config jest.config.integration.js --group=integration",
-    "test:staged": "jest --config jest.config.integration.js --onlyChanged",
-    "test:unit": "jest --config jest.config.js --group=unit"
+    "test:coverage": "jest --group=unit --coverage",
+    "test:dev": "jest --group=unit --watch",
+    "test:integration": "jest --group=integration",
+    "test:staged": "jest --onlyChanged",
+    "test:unit": "jest --group=unit"
   },
   "keywords": [
     "visionworks"

@@ -151,8 +151,3 @@ dist
 # CUSTOM
 
 .env*.local
-.env_*
-README.local.md
-.success
-tls/
-.backup/

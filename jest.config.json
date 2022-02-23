@@ -1,0 +1,20 @@
+{
+  "preset": "ts-jest",
+  "roots": ["<rootDir>/src"],
+  "transform": { "^.+\\.(ts|tsx|js|jsx)?$": "ts-jest" },
+  "testRegex": "(/__test__/.*|(\\.|/)(test|spec))\\.[jt]sx?$",
+  "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"],
+  "modulePathIgnorePatterns": ["<rootDir>/src/__test__/jest.setup.ts"],
+  "verbose": true,
+  "errorOnDeprecated": true,
+  "collectCoverageFrom": ["<rootDir>/src/app/**/*.{js,ts}"],
+  "setupFiles": ["<rootDir>/src/__test__/jest.setup.ts"],
+  "setupFilesAfterEnv": ["jest-extended/all"],
+  "runner": "groups",
+  "testEnvironment": "node",
+  "globals": {
+    "NODE_ENV": "test",
+    "DEBUG": "true",
+    "MOCK_DATA": "true"
+  }
+}
