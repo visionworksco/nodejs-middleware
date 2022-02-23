@@ -25,6 +25,7 @@
     "clean": "rimraf dist && rimraf coverage && rimraf ./src/index.ts",
     "commit": "git add . && git commit -m 'feat: :rocket:'",
     "compile": "tsc --noEmit",
+    "compile:diagnostics": "tsc --noEmit --extendedDiagnostics",
     "format": "prettier --write '**/*.{js,jsx,ts,tsx}'",
     "lint": "eslint --fix '**/*.{js,jsx,ts,tsx}'",
     "lint:license": "license-checker --production --json --out licenses.json",
