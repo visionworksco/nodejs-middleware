@@ -17,6 +17,7 @@
     "url": "https://github.com/visionworksco/nodejs-middleware/issues"
   },
   "main": "dist/index.js",
+  "type": "commonjs",
   "engines": {
     "node": ">=14.18.3"
   },
@@ -29,24 +30,28 @@
     "format": "prettier --write '**/*.{js,jsx,ts,tsx}'",
     "lint": "eslint --fix '**/*.{js,jsx,ts,tsx}'",
     "lint:license": "license-checker --production --json --out licenses.json",
-    "lint:node_modules": "./nm-lint.sh",
+    "lint:nm:audit": "npm audit",
+    "lint:nm:deprecated": "./lint-nm-deprecated.sh",
+    "lint:nm:unused": "./lint-nm-unused.sh",
     "lint:staged": "lint-staged",
     "npm:publish": "git push --follow-tags origin master && npm publish",
     "npm:release:first": "standard-version --first-release",
     "npm:release:major": "standard-version --release-as major",
     "npm:release:minor": "standard-version --release-as minor",
     "npm:release:patch": "standard-version --release-as patch",
+    "postbuild": "rimraf tsconfig.build.tsbuildinfo",
+    "postcompile": "rimraf tsconfig.tsbuildinfo",
     "setup": "husky install",
     "test": "npm run test:unit",
     "test:all": "npm run test:unit && npm run test:integration",
     "test:coverage": "jest --group=unit --coverage",
-    "test:dev": "jest --group=unit --watch",
     "test:integration": "jest --group=integration",
     "test:staged": "jest --onlyChanged",
-    "test:unit": "jest --group=unit"
+    "test:unit": "jest --group=unit",
+    "test:watch": "jest --group=unit --watch"
   },
   "keywords": [
-    "visionworks"
+    "visionworks, nodejs"
   ],
   "dependencies": {
     "amqplib": "^0.8.0",

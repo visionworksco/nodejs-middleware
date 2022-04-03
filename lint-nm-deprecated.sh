@@ -14,5 +14,3 @@ jq -r '.dependencies,.devDependencies|keys[]' package.json | while read line; do
       exit 1
   fi
 done
-
-npm audit
