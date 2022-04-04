@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.5](https://github.com/visionworksco/nodejs-middleware/compare/v2.1.4...v2.1.5) (2022-04-04)
+
+
+### Features
+
+* :rocket: ([73a3797](https://github.com/visionworksco/nodejs-middleware/commit/73a379796aad7c43a4df6a0355377c347c9c019d))
+
 ### [2.1.4](https://github.com/visionworksco/nodejs-middleware/compare/v2.1.3...v2.1.4) (2022-04-04)
 
 ### [2.1.3](https://github.com/visionworksco/nodejs-middleware/compare/v2.1.2...v2.1.3) (2022-04-04)
