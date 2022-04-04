@@ -6,11 +6,11 @@ types/
 **/__test__/
 .env*
 .eslintignore
-.eslintrc.js
+.eslintrc.*
 .prettierignore
-.prettierrc.js
-.commitlintrc.js
-.lintstagedrc.js
+.prettierrc.*
+.commitlintrc.*
+.lintstagedrc.*
 barrelsbyrc.json
 jest.*
 *.sh
