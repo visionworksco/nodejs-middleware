@@ -22,7 +22,7 @@
     "node": ">=14.18.3"
   },
   "scripts": {
-    "build": "npm run clean && npm run compile && barrelsby --config barrelsbyrc.json && tsc -p tsconfig.build.json && prettier --write ./src/index.ts",
+    "build": "npm run clean && barrelsby --config barrelsbyrc.json && tsc -p tsconfig.build.json && prettier --write ./src/index.ts",
     "clean": "rimraf dist && rimraf coverage && rimraf ./src/index.ts",
     "commit": "git add . && git commit -m 'feat: :rocket:'",
     "compile": "tsc --noEmit",

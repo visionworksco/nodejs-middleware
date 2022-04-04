@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     /* Projects */
-    "incremental": true,
+    "incremental": false,
 
     /* Language and Environment */
     "target": "esnext",
