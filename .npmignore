@@ -2,6 +2,7 @@ src/
 test/
 types/
 .husky/
+.github/
 **/__test__/
 .env*
 .eslintignore
