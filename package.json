@@ -39,8 +39,6 @@
     "npm:release:major": "standard-version --release-as major",
     "npm:release:minor": "standard-version --release-as minor",
     "npm:release:patch": "standard-version --release-as patch",
-    "postbuild": "rimraf tsconfig.build.tsbuildinfo",
-    "postcompile": "rimraf tsconfig.tsbuildinfo",
     "setup": "husky install",
     "test": "npm run test:unit",
     "test:all": "npm run test:unit && npm run test:integration",
