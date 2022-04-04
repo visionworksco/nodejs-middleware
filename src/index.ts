@@ -97,4 +97,3 @@ export * from './utils/MongoDbUtils';
 export * from './utils/NumberUtils';
 export * from './utils/ObjectUtils';
 export * from './utils/SizeUtils';
-export * from './__test__/jest.setup';

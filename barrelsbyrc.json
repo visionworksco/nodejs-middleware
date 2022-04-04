@@ -3,5 +3,5 @@
   "delete": true,
   "singleQuotes": true,
   "noSemicolon": false,
-  "exclude": ".*.(test|spec).(ts|js)"
+  "exclude": ".*.(test|spec).(ts|js)|jest.*.(ts|js)"
 }
