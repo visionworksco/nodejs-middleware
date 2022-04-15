@@ -1,8 +1,8 @@
 import { Response } from 'express';
-import { ClassTransformer } from '../class/ClassTransformer';
+import { ClassTransformer } from '../../app/class/ClassTransformer';
 import { ApiEntity } from '../entity/ApiEntity';
-import { PageRequest } from '../repository/pagination/PageRequest';
-import { PageRequestOptions } from '../repository/pagination/PageRequestOptions';
+import { PageRequest } from '../pagination/PageRequest';
+import { PageRequestOptions } from '../pagination/PageRequestOptions';
 import { BaseResult } from '../response/BaseResult';
 import { Header } from '../response/Header';
 import { StatusCode } from '../response/StatusCode';

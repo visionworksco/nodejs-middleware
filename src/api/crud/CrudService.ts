@@ -1,5 +1,5 @@
-import { PageRequest } from '../repository/pagination/PageRequest';
-import { PageResult } from '../repository/pagination/PageResult';
+import { PageRequest } from '../pagination/PageRequest';
+import { PageResult } from '../pagination/PageResult';
 
 // TODO: saveBatch([entity]), updateAll, updateBatch([id]), deleteAll, deleteBatch([id])
 export interface CrudService<T> {

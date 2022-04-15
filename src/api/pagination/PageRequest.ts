@@ -1,4 +1,4 @@
-import { ClassTransformer } from '../../class/ClassTransformer';
+import { ClassTransformer } from '../../app/class/ClassTransformer';
 import { PageRequestable } from './PageRequestable';
 
 export class PageRequest implements PageRequestable {

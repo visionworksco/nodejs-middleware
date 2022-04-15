@@ -1,7 +1,7 @@
 import { Document, Model } from 'mongoose';
-import { PageRequest } from '../pagination/PageRequest';
-import { PageResult } from '../pagination/PageResult';
-import { Paginator } from '../pagination/Paginator';
+import { PageRequest } from '../../pagination/PageRequest';
+import { PageResult } from '../../pagination/PageResult';
+import { Paginator } from '../../pagination/Paginator';
 import { Repository } from '../Repository';
 import { MongoDbResult } from './MongoDbResult';
 

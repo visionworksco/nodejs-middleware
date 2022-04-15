@@ -1,5 +1,5 @@
-import { PageRequest } from './pagination/PageRequest';
-import { PageResult } from './pagination/PageResult';
+import { PageRequest } from '../pagination/PageRequest';
+import { PageResult } from '../pagination/PageResult';
 
 export interface Repository<T> {
   findAll(pageRequest: PageRequest): Promise<PageResult<T>>;

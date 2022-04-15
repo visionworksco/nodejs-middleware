@@ -1,4 +1,4 @@
-import { ClassTransformer } from '../class/ClassTransformer';
+import { ClassTransformer } from '../../app/class/ClassTransformer';
 import { BaseCrudService } from '../crud/BaseCrudService';
 import { Repository } from '../repository/Repository';
 import { ServerException } from '../server/express/exception/ServerException';

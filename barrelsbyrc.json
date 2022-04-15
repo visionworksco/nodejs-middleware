@@ -3,5 +3,6 @@
   "delete": true,
   "singleQuotes": true,
   "noSemicolon": false,
+  "include": "./src/api",
   "exclude": ".*.(test|spec).(ts|js)|jest.*.(ts|js)"
 }

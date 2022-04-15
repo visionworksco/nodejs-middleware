@@ -1,7 +1,7 @@
-import { ClassTransformer } from '../class/ClassTransformer';
+import { ClassTransformer } from '../../app/class/ClassTransformer';
 import { ApiEntity } from '../entity/ApiEntity';
-import { PageRequest } from '../repository/pagination/PageRequest';
-import { PageResult } from '../repository/pagination/PageResult';
+import { PageRequest } from '../pagination/PageRequest';
+import { PageResult } from '../pagination/PageResult';
 import { Repository } from '../repository/Repository';
 import { ServerException } from '../server/express/exception/ServerException';
 import { ObjectUtils } from '../utils/ObjectUtils';

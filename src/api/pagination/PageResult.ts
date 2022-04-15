@@ -1,4 +1,4 @@
-import { HttpError } from '../../server/express/exception/ServerException';
+import { HttpError } from '../server/express/exception/ServerException';
 import { PageableResult } from './PageableResult';
 import { Paginator } from './Paginator';
 

@@ -2,7 +2,7 @@
  * @group integration
  */
 
-import { DateUtils } from '../../utils/DateUtils';
+import { DateUtils } from '../../api/utils/DateUtils';
 
 describe('IntegrationExample', () => {
   test('IntegrationExample', () => {
