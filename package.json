@@ -17,7 +17,6 @@
     "url": "https://github.com/visionworksco/nodejs-middleware/issues"
   },
   "main": "dist/index.js",
-  "type": "commonjs",
   "engines": {
     "node": ">=14.18.3"
   },

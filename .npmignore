@@ -4,6 +4,7 @@ types/
 .husky/
 .github/
 **/__test__/
+coverage/
 .env*
 .eslintignore
 .eslintrc.*
