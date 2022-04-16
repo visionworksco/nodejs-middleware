@@ -9,17 +9,17 @@ export class PageRequestOptions extends PageRequest {
   @IsOptional()
   @IsString()
   @IsNotEmpty()
-  sort?: string;
+  sort?: string = '';
 
   @Expose()
   @IsOptional()
   @IsNumberString()
   @IsNotEmpty()
-  page?: string;
+  page?: string = '';
 
   @Expose()
   @IsOptional()
   @IsNumberString()
   @IsNotEmpty()
-  pageLimit?: string;
+  pageLimit?: string = '';
 }

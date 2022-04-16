@@ -7,7 +7,10 @@ export class PasswordService {
     try {
       return bcrypt.hashSync(password, 10);
     } catch (error) {
-      throw ServerException.create(StatusCode.INTERNAL_SERVER_ERROR, error.message);
+      throw ServerException.create(
+        StatusCode.INTERNAL_SERVER_ERROR,
+        error instanceof Error ? error.message : '',
+      );
     }
   }
 
