@@ -48,9 +48,6 @@
     "test:unit": "jest --group=unit",
     "test:watch": "jest --group=unit --watch"
   },
-  "keywords": [
-    "visionworks, nodejs"
-  ],
   "dependencies": {
     "amqplib": "^0.8.0",
     "bcrypt": "^5.0.0",
