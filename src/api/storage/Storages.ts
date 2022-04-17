@@ -3,14 +3,14 @@ import { Storage } from './Storage';
 export class Storages {
   private storages: Storage[] = [];
 
-  constructor(...storages: Storage[]) {
+  constructor(...storages: (Storage | null)[]) {
     for (const storage of storages) {
-      this.register(storage);
+      storage && this.register(storage);
     }
   }
 
-  private register(storage: Storage) {
-    this.storages.push(storage);
+  get size(): number {
+    return this.storages.length;
   }
 
   async connect(): Promise<void> {
@@ -31,5 +31,9 @@ export class Storages {
     } catch (error) {
       return Promise.reject(error);
     }
+  }
+
+  private register(storage: Storage) {
+    this.storages.push(storage);
   }
 }

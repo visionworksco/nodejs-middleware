@@ -41,6 +41,7 @@ export * from './api/messageBroker/ampq/AmpqPubSub';
 export * from './api/messageBroker/ampq/AmpqRouting';
 export * from './api/messageBroker/ampq/AmpqRpc';
 export * from './api/messageBroker/ampq/AmpqService';
+export * from './api/messageBroker/ampq/AmpqServices';
 export * from './api/messageBroker/ampq/AmpqTopic';
 export * from './api/messageBroker/ampq/AmpqWorkQueue';
 export * from './api/messageBroker/ampq/BaseAmpq';
