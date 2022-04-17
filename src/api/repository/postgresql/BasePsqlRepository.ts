@@ -2,9 +2,9 @@ import { Pool } from 'pg';
 import { PageRequest } from '../../pagination/PageRequest';
 import { PageResult } from '../../pagination/PageResult';
 import { Paginator } from '../../pagination/Paginator';
-import { StatusCode } from '../../response/StatusCode';
-import { StatusCodeReason } from '../../response/StatusCodeReason';
 import { ServerException } from '../../server/express/exception/ServerException';
+import { StatusCode } from '../../status/StatusCode';
+import { StatusCodeReason } from '../../status/StatusCodeReason';
 import { Repository } from '../Repository';
 import { PsqlUtils } from './PsqlUtils';
 

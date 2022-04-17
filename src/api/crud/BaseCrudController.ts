@@ -3,12 +3,12 @@ import { ClassTransformer } from '../../app/class/ClassTransformer';
 import { ApiEntity } from '../entity/ApiEntity';
 import { PageRequest } from '../pagination/PageRequest';
 import { PageRequestOptions } from '../pagination/PageRequestOptions';
+import { Header } from '../request/Header';
 import { BaseResult } from '../response/BaseResult';
-import { Header } from '../response/Header';
-import { StatusCode } from '../response/StatusCode';
 import { BaseController } from '../server/express/controller/BaseController';
 import { ServerException } from '../server/express/exception/ServerException';
-import { BaseRequest } from '../server/express/route/BaseRequest';
+import { BaseRequest } from '../server/express/request/BaseRequest';
+import { StatusCode } from '../status/StatusCode';
 import { CrudController } from './CrudController';
 import { CrudService } from './CrudService';
 

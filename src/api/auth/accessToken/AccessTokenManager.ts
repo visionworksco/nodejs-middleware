@@ -1,6 +1,6 @@
 import { Request } from 'express';
-import { Cookie } from '../../response/Cookie';
-import { Header } from '../../response/Header';
+import { Cookie } from '../../request/Cookie';
+import { Header } from '../../request/Header';
 import { ServerException } from '../../server/express/exception/ServerException';
 
 export class AccessTokenManager {

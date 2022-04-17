@@ -1,8 +1,8 @@
 import { Response } from 'express';
 import { default as createHttpError } from 'http-errors';
 import { ExceptionHandler } from '../../../exception/ExceptionHandler';
-import { StatusCode } from '../../../response/StatusCode';
-import { StatusCodeReason } from '../../../response/StatusCodeReason';
+import { StatusCode } from '../../../status/StatusCode';
+import { StatusCodeReason } from '../../../status/StatusCodeReason';
 
 export type HttpError = createHttpError.HttpError;
 
@@ -45,6 +45,7 @@ export class ServerException {
 
   static handle(error: HttpError, res: Response): void {
     ExceptionHandler.handle(error);
+
     let status = error.status;
     if (!status) {
       status = StatusCode.INTERNAL_SERVER_ERROR;

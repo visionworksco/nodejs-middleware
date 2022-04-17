@@ -1,4 +1,4 @@
-export class AppException extends Error {
+export class ApplicationException extends Error {
   readonly status: number;
   readonly message: string;
   readonly name: string;
@@ -7,7 +7,7 @@ export class AppException extends Error {
     super(message);
 
     if (Error.captureStackTrace) {
-      Error.captureStackTrace(this, AppException);
+      Error.captureStackTrace(this, ApplicationException);
     }
 
     this.name = 'ApplicationError';

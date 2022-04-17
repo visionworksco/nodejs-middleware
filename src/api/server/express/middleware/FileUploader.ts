@@ -2,8 +2,8 @@ import { Request, Response } from 'express';
 import multer from 'multer';
 import path from 'path';
 import util from 'util';
-import { FileQuery } from '../../../entity/FileQuery';
-import { StatusCode } from '../../../response/StatusCode';
+import { FileQuery } from '../../../file/FileQuery';
+import { StatusCode } from '../../../status/StatusCode';
 import { SizeUtils } from '../../../utils/SizeUtils';
 import { ServerException } from '../exception/ServerException';
 

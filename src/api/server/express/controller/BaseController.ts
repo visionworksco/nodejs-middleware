@@ -1,6 +1,6 @@
 import { ClassValidator } from '../../../../app/class/ClassValidator';
 import { ApiEntity } from '../../../entity/ApiEntity';
-import { StatusCode } from '../../../response/StatusCode';
+import { StatusCode } from '../../../status/StatusCode';
 import { ServerException } from '../exception/ServerException';
 
 export abstract class BaseController<T extends ApiEntity> {

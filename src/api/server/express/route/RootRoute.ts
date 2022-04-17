@@ -1,5 +1,5 @@
 import express, { Request, Response, Router } from 'express';
-import { StatusCode } from '../../../response/StatusCode';
+import { StatusCode } from '../../../status/StatusCode';
 
 export class RootRoute {
   static registerRoutes(): Router {

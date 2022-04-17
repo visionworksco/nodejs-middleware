@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response } from 'express';
 
-export const ResponseHeaders =
+export const ResponseHeadersHandler =
   (allowOrigin: string, allowHeaders: string, allowMethods: string) =>
   (_: Request, res: Response, next: NextFunction): void => {
     res.header('Access-Control-Allow-Origin', allowOrigin);

@@ -1,6 +1,6 @@
 import bcrypt from 'bcrypt';
-import { StatusCode } from '../../response/StatusCode';
 import { ServerException } from '../../server/express/exception/ServerException';
+import { StatusCode } from '../../status/StatusCode';
 
 export class PasswordService {
   static hashSync(password: string): string {

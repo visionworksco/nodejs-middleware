@@ -1,9 +1,9 @@
 import { Request, Response } from 'express';
-import { Cookie } from '../response/Cookie';
-import { StatusCode } from '../response/StatusCode';
-import { StatusCodeReason } from '../response/StatusCodeReason';
+import { Cookie } from '../request/Cookie';
 import { BaseController } from '../server/express/controller/BaseController';
 import { ServerException } from '../server/express/exception/ServerException';
+import { StatusCode } from '../status/StatusCode';
+import { StatusCodeReason } from '../status/StatusCodeReason';
 import { AccessToken } from './accessToken/AccessToken';
 import { AuthController } from './AuthController';
 import { AuthService } from './AuthService';

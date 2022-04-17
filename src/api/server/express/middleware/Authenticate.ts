@@ -5,7 +5,7 @@ import { AuthService } from '../../../auth/AuthService';
 import { AuthUser } from '../../../auth/AuthUser';
 import { AuthData } from '../../../auth/response/AuthData';
 import { ServerException } from '../exception/ServerException';
-import { BaseRequest } from '../route/BaseRequest';
+import { BaseRequest } from '../request/BaseRequest';
 
 export const Authenticate =
   (authService: AuthService<AuthUser, AuthData>): RequestHandler =>

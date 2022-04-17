@@ -2,13 +2,13 @@ import { NextFunction, RequestHandler, Response } from 'express';
 import { PermissionManager } from '../../../auth/permisssion/PermissionManager';
 import { Role } from '../../../auth/role/Role';
 import { ServerException } from '../exception/ServerException';
-import { BaseRequest } from '../route/BaseRequest';
+import { BaseRequest } from '../request/BaseRequest';
 
-export const Authorize =
-  (role: Role, permissionSchemaId: string, permission?: string): RequestHandler =>
+export const AuthorizeDefault =
+  (defaultRole: Role, permissionSchemaId: string, permission?: string): RequestHandler =>
   (req: BaseRequest, res: Response, next: NextFunction) => {
     try {
-      if (!PermissionManager.hasPermission(role, permissionSchemaId, permission)) {
+      if (!PermissionManager.hasPermission(defaultRole, permissionSchemaId, permission)) {
         throw ServerException.InvalidAccessException();
       }
 
