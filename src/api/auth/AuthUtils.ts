@@ -1,4 +1,4 @@
-import { Base64Utils } from './Base64Utils';
+import { Base64Utils } from '../utils/Base64Utils';
 
 const getBasicAuthorizationHeader = (userName: string, password: string): string => {
   const encoded = Base64Utils.encode(`${userName}:${password}`);
