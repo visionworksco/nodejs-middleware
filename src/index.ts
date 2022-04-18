@@ -61,7 +61,6 @@ export * from './api/repository/mongodb/MongoDbResult';
 export * from './api/repository/mongodb/MongoDbUtils';
 export * from './api/repository/postgresql/BasePsqlRepository';
 export * from './api/repository/postgresql/PsqlOrderedKeysWithValues';
-export * from './api/repository/postgresql/PsqlPool';
 export * from './api/repository/postgresql/PsqlUtils';
 export * from './api/repository/Repository';
 export * from './api/request/Cookie';
