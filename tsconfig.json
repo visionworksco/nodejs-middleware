@@ -1,41 +1,26 @@
 {
   "compilerOptions": {
-    /* Projects */
     "incremental": false,
-
-    /* Language and Environment */
     "target": "esnext",
     "lib": ["es2020"],
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-
-    /* Modules */
     "module": "commonjs",
     "rootDir": "src",
     "moduleResolution": "node",
     "typeRoots": ["./types", "./node_modules/@types"],
     "resolveJsonModule": true,
-
-    /* JavaScript Support */
     "allowJs": true,
-
-    /* Emit */
     "declaration": true,
     "declarationMap": true,
     "sourceMap": true,
     "outDir": "dist",
     "removeComments": true,
-
-    /* Interop Constraints */
     "isolatedModules": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-
-    /* Type Checking */
     "strict": true,
-
-    /* Completeness */
     "skipLibCheck": true
   },
   "include": ["src"],
