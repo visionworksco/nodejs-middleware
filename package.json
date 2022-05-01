@@ -33,7 +33,7 @@
     "lint:nm:deprecated": "./lint-nm-deprecated.sh",
     "lint:nm:unused": "./lint-nm-unused.sh",
     "lint:staged": "lint-staged",
-    "npm:publish": "git push --follow-tags origin master && npm publish",
+    "npm:publish": "git push --follow-tags origin main && npm publish",
     "postinstall": "husky install",
     "release:first": "standard-version --first-release",
     "release:major": "standard-version --release-as major",
