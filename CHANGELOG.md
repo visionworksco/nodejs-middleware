@@ -2,6 +2,30 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.2.0](https://github.com/visionworksco/nodejs-middleware/compare/v2.1.5...v2.2.0) (2022-05-01)
+
+
+### Features
+
+* :rocket: ([13cfa9e](https://github.com/visionworksco/nodejs-middleware/commit/13cfa9e95cf397c995abedfca8a696840acc1749))
+* :rocket: ([2a0a2aa](https://github.com/visionworksco/nodejs-middleware/commit/2a0a2aaecc2f4ef6d3ea23cf3b5cfd5da207ef26))
+* :rocket: ([62816fd](https://github.com/visionworksco/nodejs-middleware/commit/62816fdc51afed7ad40927970d48fa8b2a3871fc))
+* :rocket: ([31f29cf](https://github.com/visionworksco/nodejs-middleware/commit/31f29cf873882d0308c581c1c903631a9022adaf))
+* :rocket: ([0f5c20f](https://github.com/visionworksco/nodejs-middleware/commit/0f5c20f94e381e2a36694d79403e02b581ae576b))
+* :rocket: ([c29cba3](https://github.com/visionworksco/nodejs-middleware/commit/c29cba3b8082726b2074d27e20a67ef591bd0004))
+* :rocket: ([b1dbf27](https://github.com/visionworksco/nodejs-middleware/commit/b1dbf27eb48650df1ab53f79ea3a3d5cd8bf2a5a))
+* :rocket: ([ddc0da0](https://github.com/visionworksco/nodejs-middleware/commit/ddc0da0ab132cb00d7ed54848529571de75884a3))
+* :rocket: ([dde3ab1](https://github.com/visionworksco/nodejs-middleware/commit/dde3ab111066cb8edaf9122dc488a52d5bb51053))
+* :rocket: ([e0f4e7f](https://github.com/visionworksco/nodejs-middleware/commit/e0f4e7f7bc2f6435a987913384ce5eb4413ee093))
+* :rocket: ([5347d75](https://github.com/visionworksco/nodejs-middleware/commit/5347d752eea8296ea77af98fcdc58ead4b455f55))
+* :rocket: ([986ffc1](https://github.com/visionworksco/nodejs-middleware/commit/986ffc1b264005b140b9bc10481c6ea4a9068305))
+* :rocket: ([b6f3ed7](https://github.com/visionworksco/nodejs-middleware/commit/b6f3ed7e6363dab5c2737ee782512343035bdc92))
+* :rocket: ([e0a6b02](https://github.com/visionworksco/nodejs-middleware/commit/e0a6b02d7992319ff026b72590f358014779128e))
+* :rocket: ([6ef7b9d](https://github.com/visionworksco/nodejs-middleware/commit/6ef7b9d9dca3ff8a2a31d362ebbd38cd7c0c8cd6))
+* :rocket: ([70f6deb](https://github.com/visionworksco/nodejs-middleware/commit/70f6deb4e9fbaf5620171a04420c09b3580f7287))
+* :rocket: ([cc321c1](https://github.com/visionworksco/nodejs-middleware/commit/cc321c1c8e372d8d05477eea93e5d330865afd30))
+* test commit ([fd0db47](https://github.com/visionworksco/nodejs-middleware/commit/fd0db473d5ac5c0eadb3c6597adb6ab89d46a9b7))
+
 ### [2.1.5](https://github.com/visionworksco/nodejs-middleware/compare/v2.1.4...v2.1.5) (2022-04-04)
 
 
