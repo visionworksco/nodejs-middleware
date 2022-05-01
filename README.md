@@ -232,6 +232,8 @@ this.accountRoute = new AccountRoute(this.accountController, this.chartWidgetCon
 
 - nvm ls, nvm use <node_version>
 - npm login (one time)
+- git checkout main
+- git merge develop
 - npm run compile
 - npm run build
 - npm run commit
