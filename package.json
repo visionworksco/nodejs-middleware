@@ -34,7 +34,7 @@
     "lint:nm:unused": "./lint-nm-unused.sh",
     "lint:staged": "lint-staged",
     "npm:publish": "git push --follow-tags origin main && npm publish",
-    "postinstall": "husky install",
+    "prepare": "husky install",
     "release:first": "standard-version --first-release",
     "release:major": "standard-version --release-as major",
     "release:minor": "standard-version --release-as minor",
