@@ -228,14 +228,15 @@ this.accountRoute = new AccountRoute(this.accountController, this.chartWidgetCon
 
 ```
 
-## Make a new build
+## Publish a new release
 
 - nvm ls, nvm use <node_version>
 - npm login (one time)
 - npm run compile
 - npm run build
 - npm run commit
-- npm run npm:release:[first|major|minor|patch]
+- npm run release:[first|major|minor|patch]
+- git push --follow-tags origin main
 - npm run npm:publish
 
 ## Symlink the package
