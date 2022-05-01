@@ -238,7 +238,6 @@ this.accountRoute = new AccountRoute(this.accountController, this.chartWidgetCon
 - npm run build
 - npm run commit
 - npm run release:[first|major|minor|patch]
-- git push --follow-tags origin main
 - npm run npm:publish
 
 ## Symlink the package
