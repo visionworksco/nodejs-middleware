@@ -94,7 +94,6 @@ export * from './api/storage/DbStorageSetup';
 export * from './api/storage/Storage';
 export * from './api/storage/Storages';
 export * from './api/utils/ArrayUtils';
-export * from './api/utils/AsyncUtils';
 export * from './api/utils/Base64Utils';
 export * from './api/utils/BooleanUtils';
 export * from './api/utils/DateUtils';
