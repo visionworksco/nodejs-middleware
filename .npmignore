@@ -1,6 +1,7 @@
 .github/
 .husky/
 bin/
+public/
 coverage/
 src/
 types/

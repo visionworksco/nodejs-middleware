@@ -37,6 +37,22 @@ export class DateUtils {
     return moment(date).format(options);
   }
 
+  static toTimeStringFromSeconds(seconds: number): string {
+    return moment.utc(seconds * 1000).format('HH:mm:ss');
+  }
+
+  static toSecondsFromTimeString(timeString: number[]): number {
+    return timeString[0] * 60 * 60 + timeString[1] * 60 + timeString[2];
+  }
+
+  static defaultTimeStr = (): string => {
+    return '00:00:00';
+  };
+
+  static fromNow(date: Date): string {
+    return moment(date).fromNow();
+  }
+
   static millisecondsFromMinutes = (minutes: number): number => {
     return 1000 * 60 * minutes;
   };
